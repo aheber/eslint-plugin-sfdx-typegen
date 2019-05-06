@@ -95,6 +95,17 @@ ruleTester.run("functions-should-type-event", rule, {
               var func = function(event: Type){};
             }
         })`
+    },
+    {
+      filename:
+        "c:\\folder1\\folder2\\force-app\\main\\default\\aura\\Test\\TestHelper.ts",
+      code: `({
+            doInit: function(
+              event: Aura.Event<HTMLElement>
+            ) {
+              var func = function(event: Type){};
+            }
+        })`
     }
   ],
 

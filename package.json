@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sfdx-typegen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/aheber/eslint-plugin-sfdx-typegen",
   "license": "MIT",
   "repository": "aheber/eslint-plugin-sfdx-typegen",
